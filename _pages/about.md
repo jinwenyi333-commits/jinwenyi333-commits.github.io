@@ -28,50 +28,69 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Some Publications 
+
 <div id="publications-container">
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
+
 [Deep Residual Learning 1](https://link.com)
 **Author**, etc.
 - Description 1
-  </div></div>
+  </div>
+</div>
 
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
+
 [Deep Residual Learning 2](https://link.com)
 **Author**, etc.
 - Description 2
-  </div></div>
+  </div>
+</div>
 
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
-[Deep Residual Learning 2](https://link.com)
+
+[Deep Residual Learning 1](https://link.com)
 **Author**, etc.
 - Description 3
-  </div></div>
+  </div>
+</div>
 
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
+
 [Deep Residual Learning 2](https://link.com)
 **Author**, etc.
 - Description 4
-  </div></div>
-
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  </div>
+</div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
-[Deep Residual Learning 2](https://link.com)
+
+[Deep Residual Learning 1](https://link.com)
 **Author**, etc.
 - Description 5
-  </div></div>
+  </div>
+</div>
 
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
+
 [Deep Residual Learning 2](https://link.com)
 **Author**, etc.
 - Description 6
-  </div></div>
-
   </div>
+</div>
+
+</div>
 
 <div id="pagination-controls">
   <button id="prev-page" class="btn btn--primary">« 上一页</button>
@@ -79,50 +98,54 @@ My research interest includes neural machine translation and computer vision. I 
   <button id="next-page" class="btn btn--primary">下一页 »</button>
 </div>
 
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const itemsPerPage = 5; // 每页显示的行数
+    const itemsPerPage = 5;
     const container = document.getElementById('publications-container');
     const items = Array.from(container.getElementsByClassName('paper-box'));
     const totalPages = Math.ceil(items.length / itemsPerPage);
     let currentPage = 1;
 
-    function showPage(page) {
-        const start = (page - 1) * itemsPerPage;
+    function updateView() {
+        const start = (currentPage - 1) * itemsPerPage;
         const end = start + itemsPerPage;
 
         items.forEach((item, index) => {
             item.style.display = (index >= start && index < end) ? 'flex' : 'none';
         });
 
-        document.getElementById('page-info').innerText = `第 ${page} / ${totalPages} 页`;
-        document.getElementById('prev-page').disabled = (page === 1);
-        document.getElementById('next-page').disabled = (page === totalPages);
+        // 生成页码数字按钮
+        const numbersBtn = document.getElementById('page-numbers');
+        numbersBtn.innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+            const span = document.createElement('span');
+            span.innerText = i;
+            span.className = 'page-num' + (i === currentPage ? ' active' : '');
+            span.onclick = function() {
+                currentPage = i;
+                updateView();
+                container.scrollIntoView({behavior: 'smooth'});
+            };
+            numbersBtn.appendChild(span);
+        }
+
+        document.getElementById('prev-page').disabled = (currentPage === 1);
+        document.getElementById('next-page').disabled = (currentPage === totalPages);
         
-        // 隐藏不需要的分页按钮（如果总数不到5个）
         if (totalPages <= 1) {
             document.getElementById('pagination-controls').style.display = 'none';
         }
     }
 
-    document.getElementById('prev-page').addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            showPage(currentPage);
-            container.scrollIntoView({behavior: 'smooth'}); // 切换页码时自动回到顶部
-        }
-    });
+    document.getElementById('prev-page').onclick = () => {
+        if (currentPage > 1) { currentPage--; updateView(); container.scrollIntoView({behavior: 'smooth'}); }
+    };
 
-    document.getElementById('next-page').addEventListener('click', () => {
-        if (currentPage < totalPages) {
-            currentPage++;
-            showPage(currentPage);
-            container.scrollIntoView({behavior: 'smooth'});
-        }
-    });
+    document.getElementById('next-page').onclick = () => {
+        if (currentPage < totalPages) { currentPage++; updateView(); container.scrollIntoView({behavior: 'smooth'}); }
+    };
 
-    showPage(currentPage);
+    updateView();
 });
 </script>
 
