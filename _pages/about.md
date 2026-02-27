@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+//<span class='anchor' id='about-me'></span>
 
 # 👨‍🎓 About Me
 I am a Professor at the School of Information Science and Engineering, Hangzhou Normal University, where I lead the Intelligent Video Coding (IVC) Lab. My research primarily focuses on the cutting-edge fields of visual data compression and multimedia communication.
@@ -87,6 +87,7 @@ Specifically, my work explores next-generation visual compression technologies, 
 - *2006.09 - 2011.06*, **Zhejiang University**, China. Ph.D. in Communication and Information System.
 - *2007.07 - 2008.05*, **EPFL**, Switzerland. Joint Ph.D. program in GR-LSM.
 - *2002.09 - 2006.06*, **Zhejiang University**, China. B.S. in Communication Engineering.
+  
 
 # 💻 Professional Experience
 - *2020.12 - Present*, **Professor**, Hangzhou Normal University. Lead IVC lab.
