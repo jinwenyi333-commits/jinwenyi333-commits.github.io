@@ -79,11 +79,6 @@ My research interest includes neural machine translation and computer vision. I 
   <button id="next-page" class="btn btn--primary">下一页 »</button>
 </div>
 
-<div id="pagination-controls" style="text-align: center; margin-top: 20px;">
-  <button id="prev-page" class="btn btn--primary">上一页</button>
-  <span id="page-info" style="margin: 0 15px;">第 1 页</span>
-  <button id="next-page" class="btn btn--primary">下一页</button>
-</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
