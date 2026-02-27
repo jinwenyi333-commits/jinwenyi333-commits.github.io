@@ -107,3 +107,34 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+#pagination-controls {
+  text-align: center;
+  margin-top: 30px;
+  user-select: none;
+
+  .page-num {
+    display: inline-block; // 确保边距生效
+    padding: 5px 12px;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+
+    &.active {
+      background-color: #00369f; // 保持与你的 badge 颜色一致
+      color: white;
+      border-color: #00369f;
+    }
+  }
+  
+  // 针对上一页/下一页按钮的微调
+  .btn {
+    margin: 0 10px;
+  }
+}
