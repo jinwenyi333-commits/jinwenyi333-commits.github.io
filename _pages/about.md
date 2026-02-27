@@ -29,9 +29,9 @@ Specifically, my work explores next-generation visual compression technologies, 
 - *2024.06*: &nbsp;🏆 Paper "ELIM" nominated as **Best Paper Award Finalist** at **IEEE PCS 2024**.
 - *2023.10*: &nbsp;📄 Two papers on G-PCC++ and YOGA accepted by **ACM MM 2023**.
 - *2020.12*: &nbsp;🏫 Promoted to **Professor** and lead the **IVC Lab** at Hangzhou Normal University.
-
- 📝 Publications 
-
+  
+<span class='anchor' id='publications'></span>
+# 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -93,7 +93,7 @@ Specifically, my work explores next-generation visual compression technologies, 
 - *2007.07 - 2008.05*, **EPFL**, Switzerland. Joint Ph.D. program in GR-LSM.
 - *2002.09 - 2006.06*, **Zhejiang University**, China. B.S. in Communication Engineering.
   
-
+<span class='anchor' id='professional-experience'></span>
 # 💻 Professional Experience
 - *2020.12 - Present*, **Professor**, Hangzhou Normal University. Lead IVC lab.
 - *2015.12 - 2020.11*, **Assistant Professor**, Hangzhou Normal University.
