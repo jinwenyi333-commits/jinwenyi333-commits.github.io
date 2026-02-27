@@ -41,68 +41,69 @@
 @import "print";
 
 .paper-box {
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-bottom: 1px #efefef solid;
-  padding: 2em 0;
-
-  .paper-box-image {
     display: flex;
-    justify-content: center;
-    flex: 0 0 100%;
-    order: 2;
-    img {
-      max-width: 400px; // 限制最大宽度，防止撑破布局
-      width: 100%;
-      box-shadow: 3px 3px 6px #888;
-      object-fit: cover;
-    }
-  }
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
 
-  .paper-box-text {
-    flex: 0 0 100%;
-    order: 1;
-    padding-bottom: 1em;
-  }
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
 
-  @include breakpoint($medium) {
-    .paper-box-image {
-      justify-content: left;
-      flex: 0 0 30%;
-      max-width: 250px;
-      order: 1;
     }
-    .paper-box-text {
-      flex: 1;
-      padding-left: 2em;
-      order: 2;
-    }
-  }
+
+
 }
 
-#pagination-controls {
-  text-align: center;
-  margin: 40px 0; // 增加间距，避免和下面的标题挤在一起
-  user-select: none;
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
 
-  .page-num {
-    display: inline-block;
-    padding: 5px 12px;
-    margin: 0 5px;
-    cursor: pointer;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-
-    &:hover { background-color: #f0f0f0; }
-    &.active {
-      background-color: #00369f;
-      color: white;
-      border-color: #00369f;
-    }
-  }
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
 }
