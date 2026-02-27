@@ -71,8 +71,14 @@ My research interest includes neural machine translation and computer vision. I 
 - Description 6
   </div></div>
 
-
   </div>
+
+<div id="pagination-controls">
+  <button id="prev-page" class="btn btn--primary">« 上一页</button>
+  <span id="page-numbers"></span>
+  <button id="next-page" class="btn btn--primary">下一页 »</button>
+</div>
+
 <div id="pagination-controls" style="text-align: center; margin-top: 20px;">
   <button id="prev-page" class="btn btn--primary">上一页</button>
   <span id="page-info" style="margin: 0 15px;">第 1 页</span>
