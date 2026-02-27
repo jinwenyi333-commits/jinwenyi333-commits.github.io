@@ -92,62 +92,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 </div>
 
-<div id="pagination-controls">
-  <button id="prev-page" class="btn btn--primary">« 上一页</button>
-  <span id="page-numbers"></span>
-  <button id="next-page" class="btn btn--primary">下一页 »</button>
-</div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const itemsPerPage = 5;
-    const container = document.getElementById('publications-container');
-    const items = Array.from(container.getElementsByClassName('paper-box'));
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-    let currentPage = 1;
-
-    function updateView() {
-        const start = (currentPage - 1) * itemsPerPage;
-        const end = start + itemsPerPage;
-
-        items.forEach((item, index) => {
-            item.style.display = (index >= start && index < end) ? 'flex' : 'none';
-        });
-
-        // 生成页码数字按钮
-        const numbersBtn = document.getElementById('page-numbers');
-        numbersBtn.innerHTML = '';
-        for (let i = 1; i <= totalPages; i++) {
-            const span = document.createElement('span');
-            span.innerText = i;
-            span.className = 'page-num' + (i === currentPage ? ' active' : '');
-            span.onclick = function() {
-                currentPage = i;
-                updateView();
-                container.scrollIntoView({behavior: 'smooth'});
-            };
-            numbersBtn.appendChild(span);
-        }
-
-        document.getElementById('prev-page').disabled = (currentPage === 1);
-        document.getElementById('next-page').disabled = (currentPage === totalPages);
-        
-        if (totalPages <= 1) {
-            document.getElementById('pagination-controls').style.display = 'none';
-        }
-    }
-
-    document.getElementById('prev-page').onclick = () => {
-        if (currentPage > 1) { currentPage--; updateView(); container.scrollIntoView({behavior: 'smooth'}); }
-    };
-
-    document.getElementById('next-page').onclick = () => {
-        if (currentPage < totalPages) { currentPage++; updateView(); container.scrollIntoView({behavior: 'smooth'}); }
-    };
-
-    updateView();
-});
-</script>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
