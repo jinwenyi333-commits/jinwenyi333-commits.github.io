@@ -42,6 +42,35 @@ My research interest includes neural machine translation and computer vision. I 
 - Description 2
   </div></div>
 
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+[Deep Residual Learning 2](https://link.com)
+**Author**, etc.
+- Description 3
+  </div></div>
+
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+[Deep Residual Learning 2](https://link.com)
+**Author**, etc.
+- Description 4
+  </div></div>
+
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+[Deep Residual Learning 2](https://link.com)
+**Author**, etc.
+- Description 5
+  </div></div>
+
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+[Deep Residual Learning 2](https://link.com)
+**Author**, etc.
+- Description 6
+  </div></div>
+
+
   </div>
 <div id="pagination-controls" style="text-align: center; margin-top: 20px;">
   <button id="prev-page" class="btn btn--primary">上一页</button>
