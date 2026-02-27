@@ -35,11 +35,11 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
   
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Efficient LiDAR Reflectance Compression via Scanning Serialization](https://arxiv.org/pdf/2505.09433)
+Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
+- we introduce SerLiC, a serialization-based neural compression frame work to fully exploit the intrinsic characteristics of LiDAR reflectance.
 </div>
 </div>
 
