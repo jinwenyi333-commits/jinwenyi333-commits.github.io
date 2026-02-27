@@ -35,7 +35,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
   
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/Efficient LiDAR Reflectance Compression via Scanning Serialization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Efficient LiDAR Reflectance Compression via Scanning Serialization](https://arxiv.org/pdf/2505.09433)
 Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
