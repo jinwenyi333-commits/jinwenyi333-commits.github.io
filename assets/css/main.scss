@@ -41,31 +41,19 @@
 @import "print";
 
 .paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
-
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  // 确保图片和文字永远是比例分配
+  .paper-box-image {
+    flex: 0 0 30%; // 图片占 30% 宽度
+    max-width: 250px;
+  }
+  .paper-box-text {
+    flex: 1; // 文字占据剩余空间
+    padding-left: 20px;
+  }
+}
     
     @include breakpoint($medium) {
         .paper-box-image{
