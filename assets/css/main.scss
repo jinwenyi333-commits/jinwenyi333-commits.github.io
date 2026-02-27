@@ -44,26 +44,27 @@
   width: 100%;
   display: flex;
   justify-content: left;
-  align-items: flex-start; // 顶部对齐
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
   padding: 2em 0;
 
   .paper-box-image {
-    justify-content: center;
     display: flex;
-    flex: 0 0 100%; // 手机端占满
+    justify-content: center;
+    flex: 0 0 100%;
     order: 2;
     img {
-      max-width: 100%;
+      max-width: 400px; // 限制最大宽度，防止撑破布局
+      width: 100%;
       box-shadow: 3px 3px 6px #888;
       object-fit: cover;
     }
   }
 
   .paper-box-text {
-    flex: 0 0 100%; // 手机端占满
+    flex: 0 0 100%;
     order: 1;
     padding-bottom: 1em;
   }
@@ -71,27 +72,27 @@
   @include breakpoint($medium) {
     .paper-box-image {
       justify-content: left;
-      flex: 0 0 30%; // 电脑端占 30%
+      flex: 0 0 30%;
       max-width: 250px;
       order: 1;
     }
     .paper-box-text {
-      flex: 1; // 占据剩余空间
+      flex: 1;
       padding-left: 2em;
       order: 2;
     }
   }
-} // 删除了多余的闭合大括号
+}
 
 #pagination-controls {
   text-align: center;
-  margin: 30px 0;
+  margin: 40px 0; // 增加间距，避免和下面的标题挤在一起
   user-select: none;
 
   .page-num {
     display: inline-block;
     padding: 5px 12px;
-    margin: 0 3px;
+    margin: 0 5px;
     cursor: pointer;
     border: 1px solid #ddd;
     border-radius: 4px;
