@@ -43,66 +43,53 @@
 .paper-box {
   width: 100%;
   display: flex;
-  margin-bottom: 20px;
-  // 确保图片和文字永远是比例分配
+  justify-content: left;
+  align-items: flex-start; // 顶部对齐
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0;
+
   .paper-box-image {
-    flex: 0 0 30%; // 图片占 30% 宽度
-    max-width: 250px;
-  }
-  .paper-box-text {
-    flex: 1; // 文字占据剩余空间
-    padding-left: 20px;
-  }
-}
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
+    justify-content: center;
+    display: flex;
+    flex: 0 0 100%; // 手机端占满
+    order: 2;
+    img {
+      max-width: 100%;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: cover;
     }
+  }
 
+  .paper-box-text {
+    flex: 0 0 100%; // 手机端占满
+    order: 1;
+    padding-bottom: 1em;
+  }
 
-}
-
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
-}
+  @include breakpoint($medium) {
+    .paper-box-image {
+      justify-content: left;
+      flex: 0 0 30%; // 电脑端占 30%
+      max-width: 250px;
+      order: 1;
+    }
+    .paper-box-text {
+      flex: 1; // 占据剩余空间
+      padding-left: 2em;
+      order: 2;
+    }
+  }
+} // 删除了多余的闭合大括号
 
 #pagination-controls {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0;
   user-select: none;
 
   .page-num {
-    display: inline-block; // 确保边距生效
+    display: inline-block;
     padding: 5px 12px;
     margin: 0 3px;
     cursor: pointer;
@@ -110,19 +97,11 @@ h1:before, .anchor:before {
     border-radius: 4px;
     transition: all 0.3s ease;
 
-    &:hover {
-      background-color: #f0f0f0;
-    }
-
+    &:hover { background-color: #f0f0f0; }
     &.active {
-      background-color: #00369f; // 保持与你的 badge 颜色一致
+      background-color: #00369f;
       color: white;
       border-color: #00369f;
     }
-  }
-  
-  // 针对上一页/下一页按钮的微调
-  .btn {
-    margin: 0 10px;
   }
 }
