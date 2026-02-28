@@ -146,7 +146,8 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 - Neural Reference Synthesis for Inter Frame Coding, D. Ding*, X. Gao, C. Tang, Z. Ma, IEEE TIP 2022 
 - Bi-prediction Based Video Quality Enhancement via Learning, D. Ding, W. Wang, X. Gao, Z. Liu, Y. Fang*, IEEE TCyb 2022 
 - Advances in Video Compression Systems Using Deep Neural Networks: A Review and Case Studies, D. Ding, Z. Ma, D. Chen, Q. Chen, Z. Liu, F. Zhu*, Proc. IEEE 2021 
-- Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021 
+- Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021
+
 ## Conference Papers
 - GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
 - Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025
