@@ -130,7 +130,7 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 </div>
 </div>
 
-##Journal Papers
+## Journal Papers
 - Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression, Z. Li, J. Zhu, D. Ding*, Z. Ma, IEEE TCSVT 2025 
 - Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach, J. Zhang, T. Chen, D. Ding*, Z. Ma, IEEE TVCG 2025 
 - ConPCAC: Conditional Lossless Point Cloud Attribute Compression via Spatial Decomposition, J. Zhang, T. Chen, K. You, D. Ding*, Z. Ma, IEEE TCSVT 2025 
@@ -147,7 +147,7 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 - Bi-prediction Based Video Quality Enhancement via Learning, D. Ding, W. Wang, X. Gao, Z. Liu, Y. Fang*, IEEE TCyb 2022 
 - Advances in Video Compression Systems Using Deep Neural Networks: A Review and Case Studies, D. Ding, Z. Ma, D. Chen, Q. Chen, Z. Liu, F. Zhu*, Proc. IEEE 2021 
 - Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021 
-##Conference Papers
+## Conference Papers
 - GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
 - Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025
 - Reno: Real-time Neural Compression for 3D LiDAR Point Clouds, K. You, T. Chen, D. Ding, M. S. Asif, Z. Ma, CVPR 2025 
