@@ -40,6 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* --- 论文展示框布局 --- */
 .paper-box {
   display: flex;
   justify-content: left;
@@ -52,22 +53,22 @@
   .paper-box-image {
     justify-content: center;
     display: flex;
-    width: 100%; // 手机端默认全宽
+    width: 100%; 
     order: 2;
 
-    div {
-      position: relative;
-      width: 100%;
-      max-width: 500px; // 限制最大宽度
+    /* 关键修正：为内部容器添加相对定位，让蓝色矩阵以此为基准 */
+    > div {
+      position: relative; 
+      width: 500px;  // 保持你要求的宽度
+      height: 300px; // 保持你要求的高度
     }
 
     img {
-      width: 500px;      // 强制宽度
-      height: 300px;     // 强制高度
-      object-fit: cover; // 核心：等比例缩放并裁剪，不拉伸 [cite: 1]
+      width: 100%;
+      height: 100%;
+      object-fit: cover; // 自动缩放并裁剪
       object-position: center; 
       box-shadow: 3px 3px 6px #888;
-      display: block;
     }
   }
 
@@ -77,18 +78,17 @@
     padding-bottom: 1em;
   }
 
-  // 电脑端响应式布局
   @include breakpoint($medium) {
     .paper-box-image {
-      flex: 0 0 40%;    // 占用 40% 宽度
+      flex: 0 0 40%;
       max-width: 40%;
       order: 1;
       justify-content: left;
-
-      img {
-        width: 100%;    // 在 40% 的容器内自适应宽度
-        height: auto;   // 保持比例
-        aspect-ratio: 500 / 300; // 锁定 500:300 比例 [cite: 2]
+      
+      > div {
+        width: 100%; // 在电脑端自适应比例
+        height: auto;
+        aspect-ratio: 500 / 300;
       }
     }
 
@@ -97,23 +97,24 @@
       max-width: 60%;
       order: 2;
       padding-left: 2em;
-      padding-bottom: 0;
     }
   }
 }
 
-// 勋章样式
+/* --- 蓝色矩阵 (Badge) 样式 --- */
 .badge {
-  padding: 0.2em 1rem;
-  position: absolute;
-  top: 0.5em;
-  left: -0.5em;
+  padding: 0.2em 0.8em;
+  position: absolute; // 绝对定位
+  top: 0;             // 贴齐顶部
+  left: 0;            // 贴齐左侧
+  z-index: 10;        // 确保在图片上方
   color: white;
   background-color: #00369f;
-  font-size: 0.8em;
-  z-index: 10;
+  font-size: 0.85em;
+  font-weight: bold;
 }
 
+/* --- 锚点跳转偏移修复 --- */
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
