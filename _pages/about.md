@@ -183,72 +183,72 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 
 </div>
 
-Journal Papers
-Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression, Z. Li, J. Zhu, D. Ding*, Z. Ma, IEEE TCSVT 2025 
+##Journal Papers
+- Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression, Z. Li, J. Zhu, D. Ding*, Z. Ma, IEEE TCSVT 2025 
 
-Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach, J. Zhang, T. Chen, D. Ding*, Z. Ma, IEEE TVCG 2025 
+- Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach, J. Zhang, T. Chen, D. Ding*, Z. Ma, IEEE TVCG 2025 
 
-ConPCAC: Conditional Lossless Point Cloud Attribute Compression via Spatial Decomposition, J. Zhang, T. Chen, K. You, D. Ding*, Z. Ma, IEEE TCSVT 2025 
+- ConPCAC: Conditional Lossless Point Cloud Attribute Compression via Spatial Decomposition, J. Zhang, T. Chen, K. You, D. Ding*, Z. Ma, IEEE TCSVT 2025 
 
-DeepPCC: Learned Lossy Point Cloud Compression, J. Zhang, G. Liu, J. Zhang, D. Ding*, Z. Ma, IEEE TETCI 2025 
+- DeepPCC: Learned Lossy Point Cloud Compression, J. Zhang, G. Liu, J. Zhang, D. Ding*, Z. Ma, IEEE TETCI 2025 
 
-Learning to Restore Compressed Point Cloud Attribute: A Fully Data-Driven Approach and a Rules-Unrolling-Based Optimization, J. Zhang, J. Zhang, D. Ding*, Z. Ma, IEEE TVCG 2025 
+- Learning to Restore Compressed Point Cloud Attribute: A Fully Data-Driven Approach and a Rules-Unrolling-Based Optimization, J. Zhang, J. Zhang, D. Ding*, Z. Ma, IEEE TVCG 2025 
 
-Scalable Point Cloud Attribute Compression, J. Zhang, J. Wang, D. Ding*, Z. Ma, IEEE TMM 2025 
+- Scalable Point Cloud Attribute Compression, J. Zhang, J. Wang, D. Ding*, Z. Ma, IEEE TMM 2025 
 
-A Versatile Point Cloud Compressor Using Universal Multiscale Conditional Coding – Part I: Geometry, J. Wang, R. Xue, J. Li, D. Ding, Y. Lin, Z. Ma*, IEEE TPAMI 2025 
+- A Versatile Point Cloud Compressor Using Universal Multiscale Conditional Coding – Part I: Geometry, J. Wang, R. Xue, J. Li, D. Ding, Y. Lin, Z. Ma*, IEEE TPAMI 2025 
 
-A Versatile Point Cloud Compressor Using Universal Multiscale Conditional Coding – Part II: Attribute, J. Wang, R. Xue, J. Li, D. Ding, Y. Lin, Z. Ma*, IEEE TPAMI 2025 
+- A Versatile Point Cloud Compressor Using Universal Multiscale Conditional Coding – Part II: Attribute, J. Wang, R. Xue, J. Li, D. Ding, Y. Lin, Z. Ma*, IEEE TPAMI 2025 
 
-Content-aware Rate Control for Geometry-based Point Cloud Compression, J. Zhang, J. Zhang, W. Ma, D. Ding*, Z. Ma, IEEE TCSVT 2024 
+- Content-aware Rate Control for Geometry-based Point Cloud Compression, J. Zhang, J. Zhang, W. Ma, D. Ding*, Z. Ma, IEEE TCSVT 2024 
 
-GRNet: Geometry Restoration for G-PCC Compressed Point Clouds Using Auxiliary Density Signaling, G. Liu, R. Xue, J. Li, D. Ding*, Z. Ma, IEEE TVCG 2024 
+- GRNet: Geometry Restoration for G-PCC Compressed Point Clouds Using Auxiliary Density Signaling, G. Liu, R. Xue, J. Li, D. Ding*, Z. Ma, IEEE TVCG 2024 
 
-Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-hypothesis Sample Refinement, D. Ding, J. Wang, G. Zhen, D. Mukherjee, U. Joshi, Z. Ma*, IEEE TCSVT 2023 
+- Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-hypothesis Sample Refinement, D. Ding, J. Wang, G. Zhen, D. Mukherjee, U. Joshi, Z. Ma*, IEEE TCSVT 2023 
 
-Sparse Tensor-Based Multiscale Representation for Point Cloud Geometry Compression, J. Wang, D. Ding, Z. Li, X. Feng, C. Cao, Z. Ma*, IEEE TPAMI 2022 
+- Sparse Tensor-Based Multiscale Representation for Point Cloud Geometry Compression, J. Wang, D. Ding, Z. Li, X. Feng, C. Cao, Z. Ma*, IEEE TPAMI 2022 
 
-Neural Reference Synthesis for Inter Frame Coding, D. Ding*, X. Gao, C. Tang, Z. Ma, IEEE TIP 2022 
+- Neural Reference Synthesis for Inter Frame Coding, D. Ding*, X. Gao, C. Tang, Z. Ma, IEEE TIP 2022 
 
-Bi-prediction Based Video Quality Enhancement via Learning, D. Ding, W. Wang, X. Gao, Z. Liu, Y. Fang*, IEEE TCyb 2022 
+- Bi-prediction Based Video Quality Enhancement via Learning, D. Ding, W. Wang, X. Gao, Z. Liu, Y. Fang*, IEEE TCyb 2022 
 
-Advances in Video Compression Systems Using Deep Neural Networks: A Review and Case Studies, D. Ding, Z. Ma, D. Chen, Q. Chen, Z. Liu, F. Zhu*, Proc. IEEE 2021 
+- Advances in Video Compression Systems Using Deep Neural Networks: A Review and Case Studies, D. Ding, Z. Ma, D. Chen, Q. Chen, Z. Liu, F. Zhu*, Proc. IEEE 2021 
 
-Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021 
+- Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021 
 
-Conference Papers
-GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
+##Conference Papers
+- GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
 
-Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025 
-
-
-Reno: Real-time Neural Compression for 3D LiDAR Point Clouds, K. You, T. Chen, D. Ding, M. S. Asif, Z. Ma, CVPR 2025 
+- Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025 
 
 
-Compressing 3D Gaussian Splatting via a Generalizable Neural Coder, J. Zhang, T. Chen, H. Zhu, D. Wang, D. Ding, Z. Ma, IEEE VCIP 2024 
-
-ELIM: Extremely Low-Complexity Implicit Neural Model for Super Resolution-Based Coding, W. Wang, J. Wang, D. Ding*, IEEE PCS 2024 (Best Paper Award Finalist) 
-
-Encoding Auxiliary Information to Restore Compressed Point Cloud Geometry, G. Liu, J. Zhu, D. Ding*, Z. Ma, IJCAI 2024 
-
-Another Way to the Top: Exploit Contextual Clustering in Learned Image Coding, Y. Zhang, Z. Duan, M. Lu, D. Ding*, F. Zhu, Z. Ma, AAAI 2024 
-
-YOGA: Yet Another Geometry-based Point Cloud Compressor, J. Zhang, T. Chen, D. Ding*, Z. Ma, ACM MM 2023 
-
-G-PCC++: Enhanced Geometry-based Point Cloud Compression, J. Zhang, T. Chen, D. Ding*, Z. Ma, ACM MM 2023 
+- Reno: Real-time Neural Compression for 3D LiDAR Point Clouds, K. You, T. Chen, D. Ding, M. S. Asif, Z. Ma, CVPR 2025 
 
 
-Lossless Point Cloud Attribute Compression Using Cross-scale, Cross-group, and Cross-color Prediction, J. Wang, D. Ding, Z. Ma, IEEE DCC 2023 
+- Compressing 3D Gaussian Splatting via a Generalizable Neural Coder, J. Zhang, T. Chen, H. Zhu, D. Wang, D. Ding, Z. Ma, IEEE VCIP 2024 
 
-Low-Light Raw Image Enhancement Using Paired Fast Fourier Convolution and Transformer, Y. Zhang, H. Liu, D. Ding*, Z. Ma, IEEE VCIP 2022 
+- ELIM: Extremely Low-Complexity Implicit Neural Model for Super Resolution-Based Coding, W. Wang, J. Wang, D. Ding*, IEEE PCS 2024 (Best Paper Award Finalist) 
 
-PCGFormer: Lossy Point Cloud Geometry Compression via Local Self-Attention, G. Liu, J. Wang, D. Ding*, Z. Ma, IEEE VCIP 2022 
+- Encoding Auxiliary Information to Restore Compressed Point Cloud Geometry, G. Liu, J. Zhu, D. Ding*, Z. Ma, IJCAI 2024 
 
-Quadtree-based Guided CNN for AV1 In-loop Filtering, J. Wang, G. Ding, D. Ding*, D. Mukherjee, U. Joshi, Y. Chen, IEEE ICIP 2022 
+- Another Way to the Top: Exploit Contextual Clustering in Learned Image Coding, Y. Zhang, Z. Duan, M. Lu, D. Ding*, F. Zhu, Z. Ma, AAAI 2024 
 
-Multiscale Point Cloud Geometry Compression, J. Wang, D. Ding, Z. Li, Z. Ma*, IEEE DCC 2021 
+- YOGA: Yet Another Geometry-based Point Cloud Compressor, J. Zhang, T. Chen, D. Ding*, Z. Ma, ACM MM 2023 
 
-Guided CNN Restoration with Explicitly Signaled Linear Combination, L. Kong, D. Ding*, D. Mukherjee, U. Joshi, Y. Chen, IEEE ICIP 2020
+- G-PCC++: Enhanced Geometry-based Point Cloud Compression, J. Zhang, T. Chen, D. Ding*, Z. Ma, ACM MM 2023 
+
+
+- Lossless Point Cloud Attribute Compression Using Cross-scale, Cross-group, and Cross-color Prediction, J. Wang, D. Ding, Z. Ma, IEEE DCC 2023 
+
+- Low-Light Raw Image Enhancement Using Paired Fast Fourier Convolution and Transformer, Y. Zhang, H. Liu, D. Ding*, Z. Ma, IEEE VCIP 2022 
+
+- PCGFormer: Lossy Point Cloud Geometry Compression via Local Self-Attention, G. Liu, J. Wang, D. Ding*, Z. Ma, IEEE VCIP 2022 
+
+- Quadtree-based Guided CNN for AV1 In-loop Filtering, J. Wang, G. Ding, D. Ding*, D. Mukherjee, U. Joshi, Y. Chen, IEEE ICIP 2022 
+
+- Multiscale Point Cloud Geometry Compression, J. Wang, D. Ding, Z. Li, Z. Ma*, IEEE DCC 2021 
+
+- Guided CNN Restoration with Explicitly Signaled Linear Combination, L. Kong, D. Ding*, D. Mukherjee, U. Joshi, Y. Chen, IEEE ICIP 2020
 
 
 
