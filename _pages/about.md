@@ -72,7 +72,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2023</div><img src='images/Neural Adaptive Loop Filtering for Video Coding.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2023</div><img src='images/Neural Adaptive Loop Filtering for Video Coding Exploring Multi-Hypothesis Sample Refinement.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-Hypothesis Sample Refinement](https://ieeexplore.ieee.org/abstract/document/10078282)
 **Dandan Ding**, Junjie Wang, Guangkun Zhen, Debargha Mukherjee, Urvang Joshi, Zhan Ma
