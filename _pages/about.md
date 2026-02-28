@@ -35,51 +35,59 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
   
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/Efficient LiDAR Reflectance Compression via Scanning Serialization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2023</div><img src='images/Neural Adaptive Loop Filtering for Video Coding.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Efficient LiDAR Reflectance Compression via Scanning Serialization](https://arxiv.org/pdf/2505.09433)  
-Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
-- We introduce SerLiC, a serialization-based neural compression frame work to fully exploit the intrinsic characteristics of LiDAR reflectance.
+[Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-Hypothesis Sample Refinement](https://ieeexplore.ieee.org/document/10123011)
+**Dandan Ding**, Junjie Wang, Guangkun Zhen, Debargha Mukherjee, Urvang Joshi, Zhan Ma
+- We reformulate ALF as a Multi-Hypothesis Sample Refinement (MSR) problem, using a DNN model to generate multiple distortion hypotheses that are linearly superimposed to approximate the final reconstruction.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2022</div><img src='images/Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression](https://ieeexplore.ieee.org/document/9807314)
+Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
+- We propose SparsePCGC, a low-complexity multiscale representation that performs sparse convolutions only on most-probable positively-occupied voxels to characterize spatial correlations efficiently.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Proc. IEEE 2021</div><img src='images/Advances In Video Compression System Using Deep Neural Network.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Advances In Video Compression System Using Deep Neural Network: A Review And Case Studies](https://ieeexplore.ieee.org/document/9454371)
+**Dandan Ding**, Zhan Ma, Di Chen, Qingshuang Chen, Zoe Liu, Fengqing Zhu
+- This article extensively reviews technical advances in video compression using deep neural networks, presenting case studies on semantic pre-processing, end-to-end neural coding, and neural adaptive post-processing.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2022</div><img src='images/Neural Reference Synthesis for Inter Frame Coding.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Neural Reference Synthesis for Inter Frame Coding](https://ieeexplore.ieee.org/document/9645265)
+**Dandan Ding**, Xiang Gao, Chenran Tang, Zhan Ma
+- We propose a Neural Reference Synthesis (NRS) framework with joint optimization of reconstruction enhancement and reference synthesis modules to improve both in-ring filtering and inter-frame prediction.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCyb 2022</div><img src='images/Biprediction-Based Video Quality Enhancement via Learning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 5Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Biprediction-Based Video Quality Enhancement via Learning](https://ieeexplore.ieee.org/document/9154617)
+**Dandan Ding**, Wenyu Wang, Junchao Tong, Xinbo Gao, Zoe Liu, Yong Fang
+- We develop a biprediction-based multiframe video enhancement (PMVE) framework that synthesizes virtual frames to extract cross-correlations between successive frames for high-accuracy quality restoration.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2021</div><img src='images/Point Cloud Upsampling via Perturbation Learning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-- 6Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Point Cloud Upsampling via Perturbation Learning](https://ieeexplore.ieee.org/document/9354011)
+**Dandan Ding**, Chi Qiu, Fuchang Liu, Zhigeng Pan
+- We propose learning 2D perturbations through MLPs to estimate coordinate shifts from sparse input points to upsampled dense points, outperforming state-of-the-art methods in geometric uniformity.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/exploit contextual clustering in learned image coding.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Another way to the top: exploit contextual clustering in learned image coding](https://ojs.aaai.org/index.php/AAAI/article/view/28059)
+Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
+- We propose Contextual Clustering based LIC (CLIC), which relies on clustering operations and local attention instead of traditional convolutions to generate compact representations for image compression.
 </div>
 </div>
 
