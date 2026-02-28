@@ -78,6 +78,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 [Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-Hypothesis Sample Refinement](https://ieeexplore.ieee.org/abstract/document/10078282)
 
+
 **Dandan Ding**, Junjie Wang, Guangkun Zhen, Debargha Mukherjee, Urvang Joshi, Zhan Ma
 
 - We reformulate ALF as a Multi-Hypothesis Sample Refinement (MSR) problem, using a DNN model to generate multiple distortion hypotheses that are linearly superimposed to approximate the final reconstruction.
@@ -88,7 +89,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2022</div><img src='images/Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='images/Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -156,7 +157,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 
 <div class='paper-box-text' markdown="1">
 
-[Point Cloud Upsampling via Perturbation Learning](https://ieeexplore.ieee.org/abstract/document/9119800)
+[Point Cloud Upsampling via Perturbation Learning](https://ieeexplore.ieee.org/abstract/document/9493165)
 
 **Dandan Ding**, Chi Qiu, Fuchang Liu, Zhigeng Pan
 
@@ -172,7 +173,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 
 <div class='paper-box-text' markdown="1">
 
-[Another way to the top: exploit contextual clustering in learned image coding](https://ojs.aaai.org/index.php/AAAI/article/view/28059)
+[Another way to the top: exploit contextual clustering in learned image coding](https://ojs.aaai.org/index.php/AAAI/article/view/28791)
 
 Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 
