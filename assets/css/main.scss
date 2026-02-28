@@ -40,7 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* --- 论文展示框布局 --- */
+/* --- 论文展示框布局 (矩阵屏幕模式) --- */
 .paper-box {
   display: flex;
   justify-content: left;
@@ -56,19 +56,28 @@
     width: 100%; 
     order: 2;
 
-    /* 关键修正：为内部容器添加相对定位，让蓝色矩阵以此为基准 */
+    /* 矩阵/屏幕容器 */
     > div {
       position: relative; 
-      width: 500px;  // 保持你要求的宽度
-      height: 300px; // 保持你要求的高度
+      width: 500px;
+      height: 300px;
+      background-color: #f9f9f9; 
+      border: 1px solid #eee;    
+      display: flex;
+      justify-content: center;   
+      align-items: center;       
+      overflow: hidden;          
+      /* 更改大框阴影：使其更柔和 */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
     }
 
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; // 自动缩放并裁剪
-      object-position: center; 
-      box-shadow: 3px 3px 6px #888;
+      max-width: 100%;           
+      max-height: 100%;          
+      width: auto;               
+      height: auto;              
+      object-fit: contain;       
+      box-shadow: none; // 图片本身不再带阴影，统一由容器负责
     }
   }
 
@@ -86,7 +95,7 @@
       justify-content: left;
       
       > div {
-        width: 100%; // 在电脑端自适应比例
+        width: 100%; 
         height: auto;
         aspect-ratio: 500 / 300;
       }
@@ -101,17 +110,20 @@
   }
 }
 
-/* --- 蓝色矩阵 (Badge) 样式 --- */
+/* --- 蓝色框 (Badge) 样式 --- */
 .badge {
   padding: 0.2em 0.8em;
-  position: absolute; // 绝对定位
-  top: 0;             // 贴齐顶部
-  left: 0;            // 贴齐左侧
-  z-index: 10;        // 确保在图片上方
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
   color: white;
   background-color: #00369f;
   font-size: 0.85em;
   font-weight: bold;
+  
+  /* --- 更改蓝色框阴影：使其具有浮起感 --- */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
 }
 
 /* --- 锚点跳转偏移修复 --- */
@@ -124,4 +136,3 @@ h1:before, .anchor:before {
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
 }
-
