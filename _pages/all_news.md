@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "All News"
-permalink: /all_news/
+permalink: /news/
 author_profile: true
 ---
 
