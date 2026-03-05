@@ -1,11 +1,12 @@
 ---
 permalink: /news/
-title: ""
+title: "All News"
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /all_news/
+  - /all-news/
+  - /news.html
 ---
 
 
