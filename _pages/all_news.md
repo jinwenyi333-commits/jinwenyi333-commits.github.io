@@ -1,11 +1,8 @@
 ---
 layout: single
-title: "🔥 All News Archive"
+title: "Full News"
 permalink: /news/
 author_profile: true
-redirect_from: 
-  - /all_news/
-  - /all-news/
 ---
 
 # 📢 Full News 
