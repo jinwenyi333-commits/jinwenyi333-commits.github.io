@@ -95,10 +95,10 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
    
-   $('.open-popup-link').magnificPopup({
+  $('.open-popup-link').magnificPopup({
     type: 'inline',
-    midClick: true, 
-    mainClass: 'mfp-fade', 
+    midClick: true,
+    mainClass: 'mfp-fade',
     removalDelay: 300
   });
 });    
