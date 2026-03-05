@@ -27,4 +27,4 @@ redirect_from:
 - *2023.10*: &nbsp;📄 Two papers on G-PCC++ and YOGA accepted by **ACM MM 2023**.
 - *2020.12*: &nbsp;🏫 Promoted to **Professor** and lead the **IVC Lab** at Hangzhou Normal University.
 
-[返回主页](/)
+[返回主页]({{ '/' | relative_url }}){: .btn .btn--primary}
