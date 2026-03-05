@@ -14,3 +14,21 @@
 .container .content {
     display: none;
     padding : 5px;
+
+#news-toggle {
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+#news-toggle:hover {
+    background-color: #d3d3d3;
+}
+
+#more-news li {
+    margin-top: 10px; /* 保持行间距 */
+}
