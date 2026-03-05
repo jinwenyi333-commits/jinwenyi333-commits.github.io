@@ -16,75 +16,31 @@
     padding : 5px;
 
     
-#news-toggle {
-    cursor: pointer;
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    padding: 0 4px;
-    border-radius: 3px;
-    background-color: #eee;
-}
-
-#news-toggle:hover {
-    background-color: #d3d3d3;
-}
-
-#more-news li {
-    margin-top: 10px; /* 保持行间距 */
-}
-
-.btn--more {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #f3f3f3;
-    color: #333 !important;
-    text-decoration: none !important;
-    border-radius: 5px;
-    font-size: 0.9em;
-    font-weight: bold;
-    border: 1px solid #d3d3d3;
-    transition: all 0.3s ease;
-}
-
-.btn--more:hover {
-    background-color: #e2e2e2;
-    border-color: #bbb;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
 
 
-/* 弹窗内容的背景和阴影 */
+/* 弹窗容器样式 */
 .white-popup {
   position: relative;
   background: #FFF;
-  padding: 40px;
+  padding: 30px;
   width: auto;
   max-width: 700px;
   margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+  border-radius: 8px;
 }
 
-/* 渐变动画效果 */
-.mfp-fade.mfp-bg {
-  opacity: 0;
-  transition: all 0.15s ease-out;
-}
-.mfp-fade.mfp-bg.mfp-ready {
-  opacity: 0.8;
-}
-.mfp-fade.mfp-bg.mfp-removing {
-  opacity: 0;
+/* 按钮美化 */
+.btn--news {
+  display: inline-block;
+  padding: 5px 12px;
+  background-color: #f2f3f5;
+  border: 1px solid #d3d3d3;
+  color: #333 !important;
+  text-decoration: none !important;
+  font-size: 0.9em;
+  border-radius: 4px;
 }
 
-.mfp-fade.mfp-wrap .mfp-content {
-  opacity: 0;
-  transition: all 0.15s ease-out;
-}
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-  opacity: 1;
-}
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-  opacity: 0;
+.btn--news:hover {
+  background-color: #e2e4e7;
 }
