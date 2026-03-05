@@ -55,32 +55,22 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 # 🔥 News
 
-- *2026.01*: &nbsp;📢 Serving as **Area Chair** for **ICASSP 2026** and **ICME 2026**.
-- *2025.10*: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by **ACM MM 2025**.
-- *2025.07*: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by **ICML 2025**.
+<ul style="list-style-type: none; margin-left: 0; padding-left: 0;">
+  <li>*2026.01*: &nbsp;📢 Serving as **Area Chair** for **ICASSP 2026** and **ICME 2026**.</li>
+  <li>*2025.10*: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by **ACM MM 2025**.</li>
+  <li>*2025.07*: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by **ICML 2025**.
+      <a href="javascript:void(0)" id="news-toggle" style="text-decoration: none; margin-left: 5px;">...</a>
+  </li>
 
-<div style="margin-top: 10px;">
-  <a href="#full-news-modal" class="open-popup-link btn--news">查看更多动态 / Read More News ...</a>
-</div>
-
-<div id="full-news-modal" class="white-popup mfp-hide">
-  <div style="background: #fff; padding: 30px; border-radius: 10px; max-width: 800px; margin: 0 auto;">
-    <h2>🔥 All News</h2>
-    <ul>
-      <li>*2026.01*: &nbsp;📢 Serving as **Area Chair** for **ICASSP 2026** and **ICME 2026**.</li>
-      <li>*2025.10*: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by **ACM MM 2025**.</li>
-      <li>*2025.07*: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by **ICML 2025**.</li>
-      <li>*2025.06*: &nbsp;🚀 Presented "Reno" (Real-time Neural Compression) at **CVPR 2025**.</li>
-      <li>*2025.01*: &nbsp;📑 Research on Multiscale Point Cloud Compressor published in **IEEE TPAMI**.</li>
-      <li>*2024.12*: &nbsp;📢 Serving as **Area Chair** for **MMSP 2025**.</li>
-      <li>*2024.06*: &nbsp;🏆 Paper "ELIM" nominated as **Best Paper Award Finalist** at **IEEE PCS 2024**.</li>
-      <li>*2023.10*: &nbsp;📄 Two papers on G-PCC++ and YOGA accepted by **ACM MM 2023**.</li>
-      <li>*2020.12*: &nbsp;🏫 Promoted to **Professor** and lead the **IVC Lab** at Hangzhou Normal University.</li>
-    </ul>
-    <button style="float: right; cursor: pointer;" onclick="$.magnificPopup.close();">Close</button>
-    <div style="clear: both;"></div>
+  <div id="more-news" style="display: none;">
+    <li>*2025.06*: &nbsp;🚀 Presented "Reno" (Real-time Neural Compression) at **CVPR 2025**.</li>
+    <li>*2025.01*: &nbsp;📑 Research on Multiscale Point Cloud Compressor published in **IEEE TPAMI**.</li>
+    <li>*2024.12*: &nbsp;📢 Serving as **Area Chair** for **MMSP 2025**.</li>
+    <li>*2024.06*: &nbsp;🏆 Paper "ELIM" nominated as **Best Paper Award Finalist** at **IEEE PCS 2024**.</li>
+    <li>*2023.10*: &nbsp;📄 Two papers on G-PCC++ and YOGA accepted by **ACM MM 2023**.</li>
+    <li>*2020.12*: &nbsp;🏫 Promoted to **Professor** and lead the **IVC Lab** at Hangzhou Normal University.</li>
   </div>
-</div>  
+</ul>
 
 
 
