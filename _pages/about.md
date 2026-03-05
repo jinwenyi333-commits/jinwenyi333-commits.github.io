@@ -55,9 +55,9 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 # 🔥 News
 
-- *2026.01*: &nbsp;📢 Serving as **Area Chair** ...
-- *2025.10*: &nbsp;📄 Paper on "GeoQE" ...
-- *2025.07*: &nbsp;🎉 One paper on LiDAR ...
+- *2026.01*: &nbsp;📢 Serving as **Area Chair** for **ICASSP 2026** and **ICME 2026**.
+- *2025.10*: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by **ACM MM 2025**.
+- *2025.07*: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by **ICML 2025**.
 
 <div style="margin-top: 10px;">
   <a href="#full-news-modal" class="open-popup-link btn--news">查看更多动态 / Read More News ...</a>
