@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "All News"
 permalink: /news/
 author_profile: true
@@ -19,4 +19,4 @@ author_profile: true
 
 <br>
 
-[⬅️ Back to Home]({{ '/' | relative_url }}){: .btn .btn--info}
+[⬅️ 返回主页]({{ '/' | relative_url }}){: .btn .btn--info}
