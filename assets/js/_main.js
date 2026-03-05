@@ -43,7 +43,7 @@ $(document).ready(function(){
       $(".author__urls").hide();
     }
   };
-
+ 
   stickySideBar();
 
   $(window).resize(function(){
