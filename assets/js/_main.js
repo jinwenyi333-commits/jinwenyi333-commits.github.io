@@ -107,4 +107,10 @@ $(document).ready(function(){
       $(this).text(" (show less)"); // 展开后显示的文字
     }
   });
+   $('.open-popup-link').magnificPopup({
+    type: 'inline',
+    midClick: true, // 允许中间键点击
+    mainClass: 'mfp-fade', // 渐变动画效果
+    removalDelay: 300 // 动画延迟
+  });
 });
