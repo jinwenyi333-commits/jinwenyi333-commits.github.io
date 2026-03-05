@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Full News Archive"
+title: "Full News List"
 permalink: /news/
-author_profile: false
+author_profile: true
 ---
 
 # 📢 Full News List
