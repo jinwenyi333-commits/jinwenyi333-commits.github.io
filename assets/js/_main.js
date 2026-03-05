@@ -101,4 +101,4 @@ $(document).ready(function(){
     mainClass: 'mfp-fade', 
     removalDelay: 300
   });
-});
+}); 
