@@ -94,23 +94,11 @@ $(document).ready(function(){
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
-
-   $("#news-toggle").on("click", function(e) {
-    e.preventDefault();
-    var $moreNews = $("#more-news");
-    
-    if ($moreNews.is(":visible")) {
-      $moreNews.slideUp();
-      $(this).text("..."); // 切换回省略号
-    } else {
-      $moreNews.slideDown();
-      $(this).text(" (show less)"); // 展开后显示的文字
-    }
-  });
+   
    $('.open-popup-link').magnificPopup({
     type: 'inline',
-    midClick: true, // 允许中间键点击
-    mainClass: 'mfp-fade', // 渐变动画效果
-    removalDelay: 300 // 动画延迟
+    midClick: true, 
+    mainClass: 'mfp-fade', 
+    removalDelay: 300
   });
 });
