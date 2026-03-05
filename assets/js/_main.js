@@ -99,16 +99,20 @@ $(document).ready(function(){
 
 
 
-  $("#news-toggle").on("click", function(e) {
-    e.preventDefault();
-    var $moreNews = $("#more-news");
-    
-    if ($moreNews.is(":visible")) {
-      $moreNews.slideUp();
-      $(this).text("..."); // 切换回省略号
-    } else {
-      $moreNews.slideDown();
-      $(this).text(" (show less)"); // 展开后显示的文字
+  document.addEventListener("DOMContentLoaded", function() {
+    var toggleBtn = document.getElementById("news-toggle");
+    var moreNews = document.getElementById("more-news");
+
+    if (toggleBtn && moreNews) {
+        toggleBtn.addEventListener("click", function() {
+            if (moreNews.style.display === "none") {
+                moreNews.style.display = "inline"; // 展开
+                toggleBtn.innerHTML = " (show less)"; // 展开后文字变成“收起”
+            } else {
+                moreNews.style.display = "none"; // 隐藏
+                toggleBtn.innerHTML = "..."; // 恢复省略号
+            }
+        });
     }
-  });
+});
 });    
