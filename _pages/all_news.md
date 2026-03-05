@@ -2,7 +2,7 @@
 layout: single
 title: "Full News Archive"
 permalink: /news/
-author_profile: true
+author_profile: false
 --- 
 
 # 📢 Full News List
