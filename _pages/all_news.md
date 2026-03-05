@@ -1,10 +1,20 @@
 ---
-layout: archive
-title: "All News" 
-permalink: /news/
-author_profile: true
----
 
+permalink: /news/
+
+title: "All News" 
+
+excerpt: ""
+
+author_profile: true
+
+redirect_from: 
+
+  - /about/
+
+  - /about.html
+
+---
 # 🔥 All News
 
 - *2026.01*: &nbsp;📢 Serving as **Area Chair** for **ICASSP 2026** and **ICME 2026**.
