@@ -20,22 +20,21 @@
 
 
 
-#news-list {
-    margin-bottom: 5px;
-}
 
 #news-toggle {
     cursor: pointer;
+    color: #333;
+    font-weight: bold;
     display: inline-block;
-    padding: 0 5px;
-    transition: color 0.3s;
+    padding: 0 4px;
+    border-radius: 3px;
+    background-color: #eee; /* 给省略号加个浅色背景，像个按钮 */
 }
 
 #news-toggle:hover {
-    color: #007bff; /* 悬停时变蓝色 */
+    background-color: #d3d3d3;
 }
 
-/* 让隐藏的 li 在展开时正常显示 */
 #more-news li {
-    margin-top: 10px; /* 保持与上方间距一致 */
+    margin-top: 10px; /* 保持行间距 */
 }
