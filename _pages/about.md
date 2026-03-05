@@ -80,7 +80,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
     <button style="float: right; cursor: pointer;" onclick="$.magnificPopup.close();">Close</button>
     <div style="clear: both;"></div>
   </div>
-</div>
+</div>  
 
 
 
