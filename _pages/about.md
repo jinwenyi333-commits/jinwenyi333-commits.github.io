@@ -1,19 +1,8 @@
 ---
-
-permalink: /
-
-title: ""
-
-excerpt: ""
-
+layout: single
+title: "🔥 All News"
+permalink: /news/
 author_profile: true
-
-redirect_from: 
-
-  - /about/
-
-  - /about.html
-
 ---
 
 
