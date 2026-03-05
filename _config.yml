@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Dandan Ding's Homepage" 
-description              : "Professor at Hangzhou Normal University, leading the Intelligent Video Coding (IVC) lab." 
+description              : " "
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer           : "Hangzhou Normal University"
   pubmed             : 
   googlescholar      : "https://scholar.google.com/citations?hl=zh-CN&user=pGImcC8AAAAJ"
-  email              : 
+  email              : "DandanDing@hznu.edu.cn"
   researchgate       : 
   uri                :
   bitbucket        :
