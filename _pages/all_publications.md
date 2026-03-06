@@ -1,4 +1,10 @@
-# 📝 Publications 
+---
+layout: default
+title: "Full Publications List"
+permalink: /publication/
+author_profile: true
+---
+# 📝 Full Publications List
 
 
 
