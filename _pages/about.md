@@ -40,17 +40,7 @@ I have published over 90 high-quality papers in leading journals and conferences
 
 I am a IEEE Senior Member and maintain active involvement in the IEEE Signal Processing Society and the IEEE Circuits and Systems Society. I served as Organizing Co-Chair of the ICME Workshop in 2023 and as International Liaison Co-Chair for the IEEE MMSP in 2024. I currently serve as an Associate Editor for IEEE Signal Processing Letters (SPL).
 
-<!--
-I am a Professor at the School of Information Science and Engineering, Hangzhou Normal University, where I lead the Intelligent Video Coding (IVC) Lab. My research primarily focuses on the cutting-edge fields of visual data compression and multimedia communication.
 
-
-
-Specifically, my work explores next-generation visual compression technologies, including AV2 and MPEG AI-based point cloud/3DGS compression, as well as their real-time system implementations on NPU and FPGA platforms. Since 2018, I have been continuously supported by Google’s Chrome University Relationship Program to advance the development of the AV2 standard.
-
-
-
-I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE Signal Processing Letters. Over the years, I have actively contributed to international standardization, notably receiving the ISO/IEC Appreciation Prize in 2011 for my leadership in MPEG activities.
--->
 
 
 # 🔥 News
