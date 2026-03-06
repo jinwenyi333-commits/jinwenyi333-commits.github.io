@@ -88,7 +88,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 <div class="slide-group">
   <div class='paper-box'>... (TMM 2025 内容) ...</div>
   <div class='paper-box'>... (ACM MM 2025 内容) ...</div>
-  
+   
   <div style="text-align: right; width: 100%; margin-top: -10px;">
     <span href="{{ '/publications/' | relative_url }}" id="pub-toggle" style="cursor: pointer; font-weight: bold; background-color: #eee; padding: 2px 10px; border-radius: 3px; font-size: 0.9em;">
       Show More Publications ...
