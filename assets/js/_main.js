@@ -116,20 +116,5 @@ $(document).ready(function(){
 
 
 
-// Publications 展开逻辑
-  $("#pub-toggle").on("click", function() {
-    var $morePubs = $("#more-publications");
-  
-    if ($morePubs.is(":visible")) {
-      $morePubs.slideUp();
-      $(this).text("View More Publications ...");
-    } else {
-      $morePubs.slideDown();
-      $(this).text("Show Less");
-    
-    // 关键：如果展开后轮播图位置错乱，调用一次 updateSlide()
-    // 假设你的 updateSlide 函数在外部可访问，或者直接触发 window resize
-      window.dispatchEvent(new Event('resize'));
-    }
    
 });    
