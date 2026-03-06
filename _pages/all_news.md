@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 
 title: "Full News List"
 permalink: /news/
 author_profile: true
