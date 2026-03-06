@@ -78,34 +78,36 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 
 # 📝 Publications 
 
+# 📝 Publications 
+
 <div class="slide-group">
-  ... (保留这里的第一组代码) ...
+  <div class='paper-box'>... (TCSVT 2025 内容) ...</div>
+  <div class='paper-box'>... (TVCG 2025 内容) ...</div>
 </div>
 
 <div class="slide-group">
-  ... (保留这里的第二组代码) ...
+  <div class='paper-box'>... (TMM 2025 内容) ...</div>
+  <div class='paper-box'>... (ACM MM 2025 内容) ...</div>
   
-  <span id="pub-toggle" style="cursor: pointer; margin-left: 10px; font-weight: bold; background-color: #eee; padding: 2px 8px; border-radius: 3px;">...</span>
+  <div style="text-align: right; width: 100%; margin-top: -10px;">
+    <span id="pub-toggle" style="cursor: pointer; font-weight: bold; background-color: #eee; padding: 2px 10px; border-radius: 3px; font-size: 0.9em;">
+      Show More Publications ...
+    </span>
+  </div>
 </div>
 
 <div id="more-publications" style="display: none;">
   <div class="slide-group">
-    ... (放入这里的代码) ...
-  </div>
-  
-  <div class="slide-group">
-    ... (放入这里的代码) ...
+    <div class='paper-box'>... (ICML 2025 内容) ...</div>
+    <div class='paper-box'>... (CVPR 2025 内容) ...</div>
   </div>
 
   <div class="slide-group">
-    ... (放入这里的代码) ...
-  </div>
-
-  <div class="slide-group">
-    ... (放入这里的代码) ...
+    <div class='paper-box'>... (AAAI 2024 内容) ...</div>
+    <div class='paper-box'>... (TCSVT 2023 内容) ...</div>
   </div>
 </div>
-
+  
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2025</div><img src='images/Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11289509)   
