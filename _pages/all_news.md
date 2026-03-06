@@ -21,4 +21,4 @@ author_profile: true
 
 <br>
 
-[⬅️ 返回主页]({{ '/' | relative_url }}){: .btn .btn--info}
+[⬅️ 返回主页]({{ '/' | relative_url }}){: .btn}
