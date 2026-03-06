@@ -116,31 +116,20 @@ $(document).ready(function(){
 
 
 
-   document.addEventListener('DOMContentLoaded', function() {
-  const track = document.querySelector('.carousel-track');
-  const slides = document.querySelectorAll('.slide-group');
-  const nextButton = document.querySelector('.next-btn');
-  const prevButton = document.querySelector('.prev-btn');
+// Publications 展开逻辑
+  $("#pub-toggle").on("click", function() {
+    var $morePubs = $("#more-publications");
   
-  let currentIndex = 0;
-
-  function updateSlide() {
-    const slideWidth = slides[0].getBoundingClientRect().width;
-    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-  }
-
-  nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateSlide();
-  });
-
-  prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateSlide();
-  });
-
-  // 窗口大小改变时重置，防止位移偏差
-  window.addEventListener('resize', updateSlide);
-});
+    if ($morePubs.is(":visible")) {
+      $morePubs.slideUp();
+      $(this).text("View More Publications ...");
+    } else {
+      $morePubs.slideDown();
+      $(this).text("Show Less");
+    
+    // 关键：如果展开后轮播图位置错乱，调用一次 updateSlide()
+    // 假设你的 updateSlide 函数在外部可访问，或者直接触发 window resize
+      window.dispatchEvent(new Event('resize'));
+    }
    
 });    
