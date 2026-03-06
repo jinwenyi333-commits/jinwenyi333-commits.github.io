@@ -155,3 +155,43 @@ h1:before, .anchor:before {
 #more-news li {
     margin-top: 10px; /* 保持行间距 */
 }
+
+/* 轮播外层容器 */
+.publications-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* 轨道：让组横向排列 */
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* 每一组（包含两个 paper-box）占满容器宽度 */
+.slide-group {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column; /* 让两个box上下排列，或者改成 row 并排 */
+  gap: 20px;
+}
+
+/* 按钮样式 */
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+.prev-btn:hover, .next-btn:hover { background: rgba(0,0,0,0.6); }
