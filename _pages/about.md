@@ -79,11 +79,43 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
 # 📝 Publications 
 
 <div class="slide-group">
-  <div class='paper-box'>... (TMM 2025 内容) ...</div>
-  <div class='paper-box'>... (ACM MM 2025 内容) ...</div>
-  
-  <div style="text-align: right; width: 100%; margin-top: -10px;">
-    <a href="{{ '/publications/' | relative_url }}" style="text-decoration: none; font-weight: bold; background-color: #eee; padding: 2px 10px; border-radius: 3px; font-size: 0.9em; color: #333;">
+  <div class='paper-box'>
+    <div class='paper-box-image'>
+      <div><div class="badge">TCSVT 2025</div><img src='images/Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression.png' alt="sym" width="100%"></div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+      [Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11289509)     
+      Zehong Li, Jiahao Zhu, **Dandan Ding***, Zhan Ma
+      - We propose two new techniques. The first is KPA (Key Point-driven Attention), which integrates both local and global characteristics. The second is AdaScale (Adaptive Lossy/Lossless Scale), which decides whether the transitional scale should be in lossless or lossy mode based on temporal displacement, thereby enhancing the reconstruction quality of the temporal reference.
+    </div>
+  </div>
+
+  <div class='paper-box'>
+    <div class='paper-box-image'>
+      <div><div class="badge">TVCG 2025</div><img src='images/Revisit Point Cloud Quality Assessment Current Advances and a Multiscale-Inspired Approach.png' alt="sym" width="100%"></div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+      [Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11048499)     
+      Junzhe Zhang, Tong Chen, **Dandan Ding***, Zhan Ma
+      - We paper proposes PQI, a simple yet efficient metric to index point cloud quality. PQI suggests using scale-wise key points to uniformly perceive distortions within a point cloud, along with a mild neighborhood size associated with each key point for compromised N2N computation.
+    </div>
+  </div>
+</div>
+
+<div class="slide-group">
+  <div class='paper-box'>
+    <div class='paper-box-image'>
+      <div><div class="badge">TMM 2025</div><img src='images/Scalable Point Cloud Attribute Compression.png' alt="sym" width="100%"></div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+      [Scalable Point Cloud Attribute Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313579)     
+      Junzhe Zhang, Jianqiang Wang, **Dandan Ding***, Zhan Ma
+      - We develops a Scalable Point Cloud Attribute Compression solution, termed ScalablePCAC. In a two-layer example, ScalablePCAC uses the standard G-PCC at the base layer to directly encode the thumbnail point cloud that is downscaled from the original input, and a learning-based model at the enhancement layer to compress and restore the full-resolutioninput point cloud conditioned on the base layer reconstruction.
+    </div>
+  </div>
+
+  <div style="text-align: right; width: 100%; margin-top: -10px; padding-bottom: 20px;">
+    <a href="{{ '/publications/' | relative_url }}" style="text-decoration: none; font-weight: bold; background-color: #eee; padding: 5px 15px; border-radius: 3px; font-size: 0.9em; color: #333; border: 1px solid #ccc;">
       View More Publications ...
     </a>
   </div>
