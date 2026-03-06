@@ -1,11 +1,19 @@
 ---
+
 permalink: /
+
 title: ""
+
 excerpt: ""
+
 author_profile: true
+
 redirect_from: 
+
   - /about/
+
   - /about.html
+
 ---
 
 
@@ -43,7 +51,7 @@ Specifically, my work explores next-generation visual compression technologies, 
 
 I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE Signal Processing Letters. Over the years, I have actively contributed to international standardization, notably receiving the ISO/IEC Appreciation Prize in 2011 for my leadership in MPEG activities.
 -->
-  
+
 
 # 🔥 News
 
@@ -52,7 +60,7 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
   <li>*2025.10*: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by **ACM MM 2025**.</li>
   <li>*2025.07*: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by **ICML 2025**.
       <a href="{{ '/news/' | relative_url }}" style="text-decoration: none; margin-left: 10px; font-weight: bold; background-color: #eee; padding: 0 4px; border-radius: 3px;">...</a>
-  </li>
+  </li>  
 
   <div id="more-news" style="display: none;">
     <li>*2025.06*: &nbsp;🚀 Presented "Reno" (Real-time Neural Compression) at **CVPR 2025**.</li>
@@ -63,8 +71,6 @@ I am an IEEE Senior Member and currently serve as an Associate Editor for IEEE S
     <li>*2020.12*: &nbsp;🏫 Promoted to **Professor** and lead the **IVC Lab** at Hangzhou Normal University.</li>
   </div>
 </ul>
-
-
 
   
 
