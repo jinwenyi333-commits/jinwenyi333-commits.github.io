@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Full Publications List"
-permalink: /publication/
+permalink: /publications/
 author_profile: true
 ---
 # 📝 Full Publications List
