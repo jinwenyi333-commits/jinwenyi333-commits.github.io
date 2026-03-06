@@ -4,7 +4,7 @@ title: "Full News List"
 permalink: /news/
 author_profile: true
 ---
-
+ 
 # 📢 Full News List
 
 <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.8;">
