@@ -151,5 +151,8 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 - Multiscale Point Cloud Geometry Compression, J. Wang, D. Ding, Z. Li, Z. Ma*, IEEE DCC 2021 
 - Guided CNN Restoration with Explicitly Signaled Linear Combination, L. Kong, D. Ding*, D. Mukherjee, U. Joshi, Y. Chen, IEEE ICIP 2020
 
+<br>
+
+<hr style="margin-top: 40px; border: 0; border-top: 1px solid #eee;">
 
 <a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #337ab7; font-size: 1.3em;">← Back to Home</a>
