@@ -16,7 +16,7 @@ redirect_from:
 
 ---
 
-
+ 
 
 {% if site.google_scholar_stats_use_cdn %}
 
