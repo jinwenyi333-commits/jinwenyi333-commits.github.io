@@ -113,5 +113,34 @@ $(document).ready(function(){
     }
   });
 
+
+
+
+   document.addEventListener('DOMContentLoaded', function() {
+  const track = document.querySelector('.carousel-track');
+  const slides = document.querySelectorAll('.slide-group');
+  const nextButton = document.querySelector('.next-btn');
+  const prevButton = document.querySelector('.prev-btn');
+  
+  let currentIndex = 0;
+
+  function updateSlide() {
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  }
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateSlide();
+  });
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    updateSlide();
+  });
+
+  // 窗口大小改变时重置，防止位移偏差
+  window.addEventListener('resize', updateSlide);
+});
    
 });    
